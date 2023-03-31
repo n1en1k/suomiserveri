@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi" lang="fi">
+  <head>
+    <meta
+      name="description"
+      content="Suomiserver CS:GO offers good matchmaking experience"
+    />
+    <meta
+      name="keywords"
+      content="cs:go, csgo, counter-strike, counter-strike: global offensive, server, private, private server"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="7 Days" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png" />
+    <title>Suomiserver CS:GO</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript" src="./js/javascripts.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Prompt"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript">
+      // Load the IFrame Player API code asynchronously.
+      var tag = document.createElement("script");
+      tag.src = "https://www.youtube.com/player_api";
+      var firstScriptTag = document.getElementsByTagName("script")[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // Replace the 'ytplayer' element with an <iframe> and
+      // YouTube player after the API code downloads.
+      var player;
+      function onYouTubePlayerAPIReady() {
+        player = new YT.Player("ytplayer", {
+          height: "230",
+          width: "350",
+          videoId: "edYCtaNueQY",
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <div class="nav-wrapper">
+      <div class="logo">
+        <!--<i class="fas fa-atom"></i>--><img
+          class="ss"
+          src="./images/logo.png"
+          alt=""
+        />
+        <strong>SUOMISERVER CS:GO</strong>
+      </div>
+      <!-- logo -->
+      <div class="burger-icon"><i class="fas fa-bars"></i> MENU</div>
+      <ul class="nav-items main-nav mobile-hide">
+        <li class="list-item"><a href="./index.html">Home</a></li>
+        <li class="list-item"><a href="./serverlist.html">server list</a></li>
+        <li class="list-item"><a href="./buy.html">buy</a></li>
+        <li class="list-item"><a href="./contact.html">contact</a></li>
+      </ul>
+    </div>
+    <!-- nav-wrapper -->
+    <div class="main-wrapper">
+      <div class="wrapper">
+        <div class="featured">
+          <!-- <div id="meta">Author Meta</div>
+				<h1>Main Server IP: 255.255.255.255</h1>
+				<span id="hero-date">1. toukokuuta 2019</span> -->
+          <div id="ytplayer"></div>
+        </div>
+        <!-- featured -->
+        <div class="sub-featured">
+          <div class="sub1">
+            <h3>128 tick 5v5 IP:</h3>
+            <h3>255.255.255.255</h3>
+          </div>
+          <!-- sub1 -->
+          <div class="sub2">
+            <h3>1v1 Arena IP:</h3>
+            <h3>255.255.255.255</h3>
+          </div>
+          <!-- sub2 -->
+          <div class="sub3">
+            <h3>Cobble Only IP:</h3>
+            <h3>255.255.255.255</h3>
+          </div>
+          <!-- sub3 -->
+        </div>
+        <!-- sub-featured -->
+        <div class="main-content">
+          <h2 class="mainContentH2">Welcome to Suomiserver CS:GO's website!</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="main-sidebar">
+          <div class="email-digest-subscription">
+            <h2 class="mainContentH2">Weekly Email Update</h2>
+            <p>
+              Subscribe below and we'll send you a weekly email summary of our
+              latest news!
+            </p>
+            <form
+              onsubmit="return validateSecondForm()"
+              name="subscribe"
+              id="subscribe"
+              action="./cgi-bin/manage.php"
+              accept-charset="UTF-8"
+              method="post"
+            >
+              <p>
+                <input
+                  placeholder="Email Address"
+                  class="email"
+                  type="email"
+                  id="email"
+                  name="email"
+                  maxlength="150"
+                />
+              </p>
+
+              <input
+                type="radio"
+                id="action_sub"
+                name="action"
+                value="sub"
+                checked
+              />
+              <label for="action_sub">subscribe</label><br />
+              <input
+                type="radio"
+                id="action_unsub"
+                name="action"
+                value="unsub"
+              />
+              <label for="action_unsub">unsubscribe</label>
+              <br />
+              <p>
+                <button
+                  type="submit"
+                  name="submit"
+                  class="subscribe"
+                  value="submit"
+                >
+                  Submit
+                </button>
+              </p>
+            </form>
+          </div>
+          <!-- email-digest-subscription -->
+        </div>
+        <!-- main sidebar end -->
+        <div class="secondary-sidebar">
+          <h4 class="topPlayersH4">Top Players</h4>
+          <h5 class="topPlayersH5">Player 1</h5>
+          <h5 class="topPlayersH5">Player 2</h5>
+          <h5 class="topPlayersH5">Player 3</h5>
+        </div>
+        <!-- secondary sidebar end -->
+      </div>
+      <!-- wrapper -->
+    </div>
+    <!-- main wrapper -->
+    <div class="footer">
+      <div class="foot1">
+        <h3 class="logo">SUOMISERVER CS:GO</h3>
+        <p>128 Tick 5v5 IP: 255.255.255.255</p>
+        <p>1v1 Arena IP: 255.255.255.255</p>
+        <p>Cobble Only IP: 255.255.255.255</p>
+        <p>support (a) suomiserver.fi</p>
+        <p><a href="./contact.html">contact here</a></p>
+      </div>
+      <div class="foot2">
+        <h4>How to get started</h4>
+        <ul class="fa-ul social-footer">
+          <li>
+            <span class="fa-li"><i class="fas fa-check-square"></i></span>visit
+            website
+          </li>
+          <li>
+            <span class="fa-li"><i class="far fa-square"></i></span>join discord
+          </li>
+          <li>
+            <span class="fa-li"><i class="far fa-square"></i></span>play games
+          </li>
+          <li>
+            <span class="fa-li"><i class="far fa-square"></i></span>win prizes
+          </li>
+        </ul>
+      </div>
+      <div class="foot3">
+        <h4>Questions?</h4>
+        <h5><a href="./guides.html">check our guides</a></h5>
+        <h5><a href="./faq.html">check our F.A.Q</a></h5>
+      </div>
+      <div class="foot4">
+        <h4>Social Media</h4>
+        <h5>
+          <a href="#"><i class="fab fa-discord"></i> Discord</a>
+        </h5>
+        <h5>
+          <a href="#"><i class="fa fa-instagram"></i> Instagram</a>
+        </h5>
+        <h5>
+          <a href="#"><i class="fa fa-twitter"></i> Twitter</a>
+        </h5>
+        <h5>
+          <a href="#"><i class="fa fa-snapchat"></i> Snapchat</a>
+        </h5>
+        <h5>
+          <a href="#"><i class="fa fa-facebook"></i> Facebook</a>
+        </h5>
+      </div>
+      <div class="copyright">&copy; 2021 SUOMISERVER CS:GO</div>
+    </div>
+    <!-- footer -->
+  </body>
+</html>
